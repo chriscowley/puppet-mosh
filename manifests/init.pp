@@ -1,5 +1,5 @@
 class mosh {
-  package { "nethogs":
+  package { "mosh":
     ensure  => latest,
     require => Class['yumrepos::epel'],
   }
